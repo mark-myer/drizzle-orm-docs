@@ -1,0 +1,1 @@
+const n=document.querySelector("[data-nav-burger-btn]"),e=document.getElementById("header"),t=document.getElementById("aside");n&&e&&t&&n.addEventListener("click",()=>{e.classList.toggle("nav_container_open"),t.classList.toggle("invisible"),document.body.style.overflow=e.classList.contains("nav_container_open")?"hidden":"auto"});

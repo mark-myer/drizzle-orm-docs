@@ -1,0 +1,1 @@
+const o=()=>{const a=document.querySelectorAll("[data-href]"),c=localStorage.getItem("dialect")||"pg";a.forEach(t=>{const l=t.dataset.href;t.href=`${l}/${c}`})},s=document.querySelector(".dialect-tabs__tab--active"),e=s?.dataset?.dialectTab;e&&(localStorage.setItem("dialect",e),o());export{o as u};

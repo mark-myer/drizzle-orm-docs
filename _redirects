@@ -1,0 +1,24 @@
+/docs /docs/overview 301
+/docs/quick-start /docs/overview 301
+/docs/crud /docs/select 301
+/docs/performance /docs/perf-queries 301
+/docs/installation-and-db-connection /docs/overview 301
+/kit-docs /kit-docs/overview 301
+
+/docs/installation-and-db-connection/postgresql/* /docs/get-started-postgresql 301
+/docs/installation-and-db-connection/mysql/* /docs/get-started-mysql 301
+/docs/installation-and-db-connection/sqlite/* /docs/get-started-sqlite 301
+
+/docs/quick-postgresql /docs/get-started-postgresql 301
+/docs/quick-mysql /docs/get-started-mysql 301
+/docs/quick-sqlite /docs/get-started-sqlite 301
+
+/docs/quick-postgresql/* /docs/get-started-postgresql 301
+/docs/quick-mysql/* /docs/get-started-mysql 301
+/docs/quick-sqlite/* /docs/get-started-sqlite 301
+
+/learn/guides/queries/* /learn/guides/:splat 301
+
+/learn/tutorials/drizzle-with-frameworks/* learn/tutorials/:splat 301
+/learn/tutorials/drizzle-with-db/drizzle-with-db /learn/tutorials/drizzle-with-turso 301
+/learn/tutorials/drizzle-with-db/* /learn/tutorials/:splat 301
